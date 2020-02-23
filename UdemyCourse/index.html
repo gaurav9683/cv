@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>💖Gaurav's Diary</title>
+</head>
+
+<body>
+  <table cellpadding="10">
+    <td>
+      <img src="images/Gaurav.png" alt="Gaurav Pandey image">
+    </td>
+    <td><h1>Gaurav Pandey</h1>
+    <p><em>Senior Test Engineer at <strong>Symantec (now part of Broadcom)</strong>.</em></p>
+    <p>Vericious tester by nature and like to test every bit of application that is in front of me. Also remarklably good in automation testing. Equally good in preformance testing and like to create good websites during my lousy hours.</p>
+</td>
+  </table>
+
+  <p><em>Senior Test Engineer at <strong>Symantec (now part of Broadcom)</strong>.</em></p>
+  <p>Vericious tester by nature and like to test every bit of application that is in front of me. Also remarklably good in automation testing. Equally good in preformance testing and like to create good websites during my lousy hours.</p>
+<hr>
+<h2 class="city show">Education and Curriculam</h2>
+<ul>
+  <li>
+  Completed B.Tech from RKNEC Nagpur in 2005.
+  </li>
+  <li>
+    Did many certifications like RHEL, NCFM's,QTP
+  </li>
+
+  <li>
+    Worked in various automation facets and always want to explore more on automation.
+  </li>
+</ul>
+
+
+<hr>
+<h2 class="city show">My Hobbies</h2>
+<ol>
+<li>
+  Web Designing
+</li>
+<li>
+  Playing PS4.
+</li>
+<li>
+  Doing nothing.
+</li>
+</ol>
+<ul style="list-style-type:circle">
+  <li>
+    youtube
+  </li>
+  <li>
+    Instagram
+  </li>
+</ul>
+<hr>
+<h2 class="city show">Workplace</h2>
+<dl>
+  <dt>
+    First Company
+  </dt>
+  <dd>
+    - <a href="https://www.techmahindra.com/en-in/?f=2010618734">Satyam</a> <span style="color:orange">**ok Company</span>
+  </dd>
+  <dt>
+    Second Company
+  </dt>
+  <dd>
+    - <a href="https://www.careers.fiserv.com/india">Fiserv</a> <span style="color:orange">**ok Company</span>
+  </dd>
+  <dt>
+    Third Company
+  </dt>
+  <dd>
+    - TCS <span style="color:red">**Boring Company</span>
+  </dd>
+  <dt>
+    Fourth Company
+  </dt>
+  <dd>
+    - Symantec <span style="color:green">**Best Company</span>
+  </dd>
+</dl>
+<hr>
+<h2 class="city show">Hide Details</h2>
+<p>
+  On clicking the below button all the headings will be hidden from the viewer.
+</p>
+<button onclick="hide()" style="color:red">Hide Headings</button>
+<button onclick="show()" style="color:green">Show Headings</button>
+<script>
+  function hide(){
+    var x = document.getElementsByClassName("city")
+    for (var i=0;i<=x.length;i++){
+      x[i].style.display = "none"
+    }
+  }
+  function show(){
+    var x = document.getElementsByClassName("show")
+    for (var i=0;i<=x.length;i++){
+      x[i].style.display = "inline"
+    }
+  }
+</script>
+<hr />
+<h2>Skills</h2>
+<table cellpadding="5">
+<thead>
+  <th>Skills</th>
+  <th>Ratings</th>
+</thead>
+<tbody>
+  <!--below emoji is using cmd+ctrl+space on mac -->
+<tr>
+  <td>Automation</td>
+  <td>⭐️⭐️⭐️⭐️⭐️</td>
+</tr>
+<tr>
+  <td>Manual</td>
+  <td>⭐️⭐️⭐️</td>
+</tr>
+<tr>
+  <td>SQL</td>
+  <td>⭐️⭐️⭐️⭐️</td>
+</tr>
+
+</tbody>
+
+</table>
+<hr>
+<h2>Forms</h2>
+<form class="" action="index.html" method="post">
+  <label for="">Name</label>
+  <input type="text" name="" value="">
+  <br>
+  <label for="">Password</label>
+  <input type="password" name="" value="">
+  <br>
+  <input type="submit" name="Gaurav" value="Submit">
+  <br>
+  <input type="file" name="Upload" value="Upload File">
+  <br>
+  <label for="">Enter date:</label>
+  <input type="date" name="Choose Date" value="Choose Date">
+
+  <br>
+  <label for="">Range: </label>
+  <input type="range" name="" value="">
+</form>
+<hr>
+<h2>Email me</h2>
+<form action="mailto:gaurav9683@gmail.com" method="post" enctype="text/plain">
+  <label for="">Name</label>
+  <input type="text" name="" value=""><br>
+  <label for="">Email</label>
+  <input type="email" name="" value=""><br>
+  <label for="">Your Message</label><br>
+  <textarea name="name" rows="10" cols="20"></textarea><br>
+  <input type="submit" name="Email me..!!" value="Email me..!!">
+</form>
+
+</body>
+
+</html>
